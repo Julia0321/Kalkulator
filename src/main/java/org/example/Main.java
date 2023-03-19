@@ -38,7 +38,7 @@ public class Main {
         if(liczba2 != 0) {
             return liczba1 / liczba2;
         }
-        throw new NullPointerException();
+        throw new ArithmeticException();
     }
     private static Integer dodawanie(int liczba1, int liczba2){
         return liczba1 + liczba2;
