@@ -31,5 +31,19 @@ public class Main {
         }
         System.out.println(wynik);
     }
-
+    private static Integer mnożenie(int liczba1, int liczba2){
+        return liczba1 * liczba2;
+    }
+    private static Integer dzielenie(int liczba1, int liczba2){
+        if(liczba2 != 0) {
+            return liczba1 / liczba2;
+        }
+        throw new NullPointerException();
+    }
+    private static Integer dodawanie(int liczba1, int liczba2){
+        return liczba1 + liczba2;
+    }
+    private static Integer odejmowanie(int liczba1, int liczba2){
+        return liczba1 - liczba2;
+    }
 }
