@@ -34,11 +34,11 @@ public class Main {
     private static Integer mnożenie(int liczba1, int liczba2){
         return liczba1 * liczba2;
     }
-    private static Integer dzielenie(int liczba1, int liczba2) throws Exception {
+    private static Integer dzielenie(int liczba1, int liczba2){
         if(liczba2 != 0) {
             return liczba1 / liczba2;
         }
-        throw new Exception();
+        throw new ArithmeticException();
     }
     private static Integer dodawanie(int liczba1, int liczba2){
         return liczba1 + liczba2;
